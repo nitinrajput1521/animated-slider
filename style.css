@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.maindiv{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  /*border: 2px solid white;*/
+  background: url('nature-3082832.jpg') no-repeat center center/cover;
+  box-shadow: 2px 2px 5px white;
+  animation: slider 10s infinite linear;
+}
+@keyframes slider{
+  0%{
+    background: url('nature-3082832.jpg') no-repeat center center/cover;
+  }
+  25%{
+    background: url('mountains-190055_1920.jpg') no-repeat center center/cover;
+  }
+  50%{
+    background: url('tree-736885_1920.jpg') no-repeat center center/cover;
+  }
+  75%{
+    background: url('road-1072823.jpg') no-repeat center center/cover;
+  }
+  100%{
+    background: url('nature-3082832.jpg') no-repeat center center/cover;
+  }
+}
+span{
+margin: 0;
+padding: 0;
+font-size: 70px;
+color: white;
+font-weight: bolder;
+}
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
